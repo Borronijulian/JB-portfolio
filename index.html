@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Julián Borroni — Diseñador Digital en Buenos Aires</title>
+<meta name="description" id="pageDesc" content="Portfolio de Julián Ignacio Borroni, diseñador digital en Buenos Aires especializado en branding, identidad de marca y edición de video.">
+<meta property="og:title" content="Julián Borroni — Diseño digital · Branding · Video">
+<meta property="og:description" content="Portfolio de Julián Borroni: identidad de marca, branding y edición de video. Buenos Aires, Argentina.">
+<meta property="og:image" content="assets/img/brand/og-image.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/brand/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/brand/favicon-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-loading">
+
+<!-- ===== PRELOADER ===== -->
+<div class="preloader" id="preloader">
+  <img src="assets/img/brand/logo-jb-white.png" alt="" class="preloader__logo">
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <img src="assets/img/brand/logo-jb-white.png" alt="Julián Borroni" class="nav__logo">
+    </a>
+    <nav class="nav__links">
+      <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+      <a href="#trabajo" data-i18n="nav_work">Trabajo</a>
+      <a href="#experiencia" data-i18n="nav_experience">Experiencia</a>
+      <a href="#contacto" class="nav__cta" data-i18n="nav_contact">Contacto</a>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+    <a href="#trabajo" data-i18n="nav_work">Trabajo</a>
+    <a href="#experiencia" data-i18n="nav_experience">Experiencia</a>
+    <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+    <button class="lang-toggle lang-toggle--mobile" id="langToggleMobile" aria-label="Switch language">EN</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="badge reveal"><span class="badge__dot"></span><span data-i18n="badge">Disponible para nuevos proyectos y oportunidades</span></div>
+      <p class="hero__eyebrow reveal" data-i18n="eyebrow">Diseño digital · Edición de video · Fotografía</p>
+      <h1 class="hero__title reveal">Julián Borroni</h1>
+      <p class="hero__sub reveal" data-i18n="hero_sub">
+        Licenciado en Diseño Digital, editor audiovisual y fotógrafo, con un perfil creativo y multidisciplinario enfocado en la comunicación visual, el diseño y la creación de contenido digital.
+      </p>
+      <div class="hero__stats reveal">
+        <div class="stat"><strong>9+</strong><span data-i18n="stat_brands">Marcas</span></div>
+        <div class="stat"><strong>13+</strong><span data-i18n="stat_projects">Proyectos</span></div>
+        <div class="stat"><strong>3+</strong><span data-i18n="stat_years">Años</span></div>
+      </div>
+      <div class="hero__actions reveal">
+        <a href="#trabajo" class="btn btn--primary" data-i18n="btn_view_projects">Ver proyectos</a>
+        <a href="#contacto" class="btn btn--ghost" data-i18n="btn_talk">Hablemos</a>
+      </div>
+    </div>
+    <div class="hero__figure reveal">
+      <img src="assets/img/profile/julian-borroni.webp" alt="Retrato de Julián Borroni" style="object-position:center 20%">
+    </div>
+  </section>
+
+  <!-- ===== CLIENTES ===== -->
+  <section class="clients">
+    <p class="clients__label" data-i18n="clients_label">Marcas con las que trabajé</p>
+    <div class="clients__row">
+      <img src="assets/img/brand/clients/mana.webp" alt="Mana" loading="lazy">
+      <img src="assets/img/brand/clients/warner.webp" alt="Warner" loading="lazy">
+      <img src="assets/img/brand/clients/identity.webp" alt="Identity Campus" loading="lazy">
+      <img src="assets/img/brand/clients/mediapunta.webp" alt="Media Punta" loading="lazy">
+      <img src="assets/img/brand/clients/susana.webp" alt="Susana Merle Propiedades" loading="lazy">
+      <img src="assets/img/brand/clients/tresTV.webp" alt="3TV" loading="lazy">
+      <img src="assets/img/brand/clients/paginasmg.webp" alt="paginaswebmg" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ===== SOBRE MI ===== -->
+  <section class="about" id="sobre-mi">
+    <div class="about__photo">
+      <img src="assets/img/profile/julian-borroni-hero.webp" alt="Julián Borroni" loading="lazy">
+    </div>
+    <div class="about__text">
+      <p class="section-label" data-i18n="about_label">Sobre mí</p>
+      <h2 data-i18n="about_title">Diseño con criterio, antes que con herramientas.</h2>
+      <p data-i18n="about_text">
+        Soy Julián, Licenciado en Diseño Digital / Audiovisual por la Universidad de Palermo y fotógrafo formado en el Centro Fotográfico Quilmes. Mi perfil combina diseño gráfico, identidad visual, creación de contenido y edición audiovisual, con un enfoque creativo orientado a desarrollar soluciones visuales que comuniquen con claridad, coherencia y personalidad.
+      </p>
+      <a href="assets/cv/Cv_Borroni_Julian_2026.pdf" class="btn btn--primary" download data-i18n="btn_cv">Descargar CV</a>
+    </div>
+  </section>
+
+  <!-- ===== FILOSOFÍA ===== -->
+  <section class="philosophy">
+    <p class="section-label" data-i18n="philosophy_label">Filosofía</p>
+    <h2 data-i18n="philosophy_title">Cómo pienso el diseño</h2>
+    <p class="philosophy__intro" data-i18n="philosophy_intro">Antes de abrir Illustrator, primero entiendo qué necesita decir la marca.</p>
+    <div class="philosophy__grid">
+      <div class="philosophy__item">
+        <span class="philosophy__num">01</span>
+        <h3 data-i18n="philosophy_1_title">Cada decisión tiene un propósito</h3>
+        <p data-i18n="philosophy_1_text">El diseño no se trata únicamente de crear algo atractivo. Cada color, forma, composición y elemento visual debe tener una intención y contribuir a comunicar un mensaje.</p>
+      </div>
+      <div class="philosophy__item">
+        <span class="philosophy__num">02</span>
+        <h3 data-i18n="philosophy_2_title">Creatividad con identidad</h3>
+        <p data-i18n="philosophy_2_text">Creo que cada proyecto necesita encontrar su propio lenguaje visual. Me interesa explorar diferentes ideas y recursos creativos para desarrollar piezas con personalidad, sin perder de vista su esencia y objetivo.</p>
+      </div>
+      <div class="philosophy__item">
+        <span class="philosophy__num">03</span>
+        <h3 data-i18n="philosophy_3_title">Los detalles hacen la diferencia</h3>
+        <p data-i18n="philosophy_3_text">Desde una fotografía hasta una pieza gráfica o audiovisual, considero que los pequeños detalles construyen el resultado final. La composición, la iluminación, el ritmo y la estética son fundamentales para generar una experiencia visual coherente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HERRAMIENTAS ===== -->
+  <section class="tools">
+    <p class="section-label" data-i18n="tools_label">Herramientas</p>
+    <div class="tools__grid">
+      <div class="tool-chip" data-level="advanced" tabindex="0">Illustrator</div>
+      <div class="tool-chip" data-level="advanced" tabindex="0">Photoshop</div>
+      <div class="tool-chip" data-level="advanced" tabindex="0">Premiere</div>
+      <div class="tool-chip" data-level="basic" tabindex="0">After Effects</div>
+      <div class="tool-chip" data-level="advanced" tabindex="0">Canva</div>
+      <div class="tool-chip" data-level="advanced" tabindex="0">CapCut</div>
+      <div class="tool-chip" data-level="intermediate" tabindex="0">Claude</div>
+    </div>
+  </section>
+
+  <!-- ===== TRABAJO / PROYECTOS ===== -->
+  <section class="work" id="trabajo">
+    <div class="work__head">
+      <p class="section-label" data-i18n="work_label">Portafolio</p>
+      <h2 data-i18n="work_title">Proyectos seleccionados</h2>
+    </div>
+
+    <!-- DISEÑO GRÁFICO -->
+    <div class="work__category">
+      <h3 class="work__category-title" data-i18n="cat_design">Diseño gráfico</h3>
+      <div class="grid grid--uniform">
+
+        <article class="card" data-project="mana">
+          <div class="card__media">
+            <img src="assets/img/mana/mana-cover.webp" alt="Identidad de marca Mana" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Mana</h3>
+            <p class="card__desc" data-i18n="p_mana_desc">Identidad de marca para un emprendimiento de cajas de regalo.</p>
+            <div class="card__tags"><span data-i18n="tag_branding">Branding</span><span data-i18n="tag_identity">Identidad</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="warner">
+          <div class="card__media">
+            <img src="assets/img/warner/warner-cover.webp" alt="Identidad de marca Warner" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Warner</h3>
+            <p class="card__desc" data-i18n="p_warner_desc">Sistema de marca para una tienda de accesorios para autos.</p>
+            <div class="card__tags"><span data-i18n="tag_branding">Branding</span><span data-i18n="tag_brandsystem">Sistema de marca</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="identity">
+          <div class="card__media">
+            <img src="assets/img/identity/identity-cover.webp" alt="Identity Campus, piezas institucionales" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Identity Campus</h3>
+            <p class="card__desc" data-i18n="p_identity_desc">Dossiers y piezas gráficas para un campus de hockey internacional.</p>
+            <div class="card__tags"><span data-i18n="tag_editorial">Editorial</span><span data-i18n="tag_dossier">Dossier</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- WEB -->
+    <div class="work__category">
+      <h3 class="work__category-title" data-i18n="cat_web">Web</h3>
+      <div class="grid grid--uniform">
+
+        <article class="card" data-project="standtick">
+          <div class="card__media">
+            <img src="assets/img/standtick/standtick-cover.webp" alt="Stand Tick, prototipo UX/UI" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Stand Tick</h3>
+            <p class="card__desc" data-i18n="p_standtick_desc">Prototipo UX/UI para compra de entradas a eventos.</p>
+            <div class="card__tags"><span data-i18n="tag_uxui">UX/UI</span><span data-i18n="tag_prototype">Prototipo</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="duki">
+          <div class="card__media card__media--live">
+            <iframe src="https://borronijulian.github.io/BorronijulianTPFINAL/" loading="lazy" title="Duki — TP Final" tabindex="-1"></iframe>
+          </div>
+          <div class="card__info">
+            <h3>Duki — TP Final</h3>
+            <p class="card__desc" data-i18n="p_duki_desc">Sitio web inspirado en el artista Duki.</p>
+            <div class="card__tags"><span data-i18n="tag_webdev">Desarrollo web</span><span data-i18n="tag_ui">UI</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- REELS -->
+    <div class="work__category">
+      <h3 class="work__category-title" data-i18n="cat_reels">Reels</h3>
+      <div class="grid grid--uniform">
+
+        <article class="card" data-project="paginasmg">
+          <div class="card__media">
+            <img src="assets/img/paginasmg/paginasmg-cover.webp" alt="paginaswebmg, reel" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>paginaswebmg</h3>
+            <p class="card__desc" data-i18n="p_paginasmg_desc">Reel comparativo del antes y después de un diseño web.</p>
+            <div class="card__tags"><span data-i18n="tag_video">Video</span><span data-i18n="tag_videoediting">Edición de video</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="identityreel">
+          <div class="card__media">
+            <img src="assets/img/identity/identity-cover.webp" alt="Identity Campus, reel institucional" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Identity Campus</h3>
+            <p class="card__desc" data-i18n="p_identityreel_desc">Reel institucional para redes del campus de hockey.</p>
+            <div class="card__tags"><span data-i18n="tag_video">Video</span><span data-i18n="tag_videoediting">Edición de video</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="mediapunta">
+          <div class="card__media">
+            <img src="assets/img/mediapunta/mediapunta-cover.webp" alt="Media Punta" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Media Punta</h3>
+            <p class="card__desc" data-i18n="p_mediapunta_desc">Edición de un podcast de fútbol chileno para redes.</p>
+            <div class="card__tags"><span data-i18n="tag_videoediting">Edición de video</span><span data-i18n="tag_motion">Motion</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="susana">
+          <div class="card__media">
+            <img src="assets/img/susana/susana-cover.webp" alt="Susana Merle Propiedades" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>Susana Merle Propiedades</h3>
+            <p class="card__desc" data-i18n="p_susana_desc">Reel promocional para una inmobiliaria.</p>
+            <div class="card__tags"><span data-i18n="tag_video">Video</span><span data-i18n="tag_marketing">Marketing</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="tresTV">
+          <div class="card__media">
+            <img src="assets/img/tresTV/tresTV-cover.webp" alt="3TV" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>3TV</h3>
+            <p class="card__desc" data-i18n="p_tresTV_desc">Reel publicitario para la productora.</p>
+            <div class="card__tags"><span data-i18n="tag_video">Video</span><span data-i18n="tag_branding">Branding</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- CORTOMETRAJES -->
+    <div class="work__category">
+      <h3 class="work__category-title" data-i18n="cat_shorts">Proyectos universitarios</h3>
+      <div class="grid grid--uniform">
+
+        <article class="card" data-project="eljuicio">
+          <div class="card__media">
+            <img src="assets/img/eljuicio/eljuicio-cover.webp" alt="El Juicio, cortometraje VR 360°" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>El Juicio</h3>
+            <p class="card__desc" data-i18n="p_eljuicio_desc">Cortometraje de comedia en formato VR 360°.</p>
+            <div class="card__tags"><span data-i18n="tag_short">Cortometraje</span><span data-i18n="tag_vr">VR 360°</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="laciudad">
+          <div class="card__media">
+            <img src="assets/img/eljuicio/laciudad-cover.webp" alt="La ciudad que recuerda, cortometraje stop motion" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3>La ciudad que recuerda</h3>
+            <p class="card__desc" data-i18n="p_laciudad_desc">Cortometraje de stop motion con maqueta y modelado propios.</p>
+            <div class="card__tags"><span data-i18n="tag_short">Cortometraje</span><span>Stop motion</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-project="creditos">
+          <div class="card__media">
+            <img src="assets/img/eljuicio/creditos-cover.webp" alt="Créditos: El apagón, motion graphics" loading="lazy">
+          </div>
+          <div class="card__info">
+            <h3 data-i18n="p_creditos_title">Créditos: El apagón</h3>
+            <p class="card__desc" data-i18n="p_creditos_desc">Motion graphics para los créditos de un cortometraje.</p>
+            <div class="card__tags"><span data-i18n="tag_video">Video</span><span>Motion</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCIA ===== -->
+  <section class="experience" id="experiencia">
+    <p class="section-label" data-i18n="exp_label">Experiencia</p>
+    <h2 data-i18n="exp_title">Trayectoria</h2>
+    <ol class="timeline">
+      <li class="timeline__item">
+        <div class="timeline__marker"><span class="timeline__dot"></span></div>
+        <div class="timeline__content">
+          <span class="timeline__year">2024 — 2026</span>
+          <h3 data-i18n="exp_photo_title">Fotógrafo freelance</h3>
+        </div>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__marker"><span class="timeline__dot"></span></div>
+        <div class="timeline__content">
+          <span class="timeline__year">2025 — 2026</span>
+          <h3>Identity Campus</h3>
+          <ul class="timeline__list">
+            <li data-i18n="exp_identity_b1">Diseño de 2 dossiers de promoción de punta a punta (Mundial 2026 y Tecnificación 2026)</li>
+            <li data-i18n="exp_identity_b2">Edición del reel institucional para redes</li>
+          </ul>
+        </div>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__marker"><span class="timeline__dot"></span></div>
+        <div class="timeline__content">
+          <span class="timeline__year">2024 — 2025</span>
+          <h3>100% Print</h3>
+          <ul class="timeline__list">
+            <li data-i18n="exp_print_b1">A cargo del proceso de sublimación de piezas gráficas de producción</li>
+            <li data-i18n="exp_print_b2">Preparación de artes para impresión sin errores</li>
+          </ul>
+        </div>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__marker"><span class="timeline__dot"></span></div>
+        <div class="timeline__content">
+          <span class="timeline__year">2024</span>
+          <h3>Media Punta</h3>
+          <ul class="timeline__list">
+            <li data-i18n="exp_mp_b1">Edición semanal de episodios de un podcast de fútbol chileno</li>
+            <li data-i18n="exp_mp_b2">Diseño de carátulas y gráficos para cada entrega</li>
+          </ul>
+        </div>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__marker"><span class="timeline__dot"></span></div>
+        <div class="timeline__content">
+          <span class="timeline__year">2023</span>
+          <h3>Copileidy</h3>
+          <ul class="timeline__list">
+            <li data-i18n="exp_copi_b1">Preparación de archivos para preimpresión</li>
+            <li data-i18n="exp_copi_b2">Soporte en diseño gráfico general del estudio</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="contact" id="contacto">
+    <div class="contact__inner">
+      <p class="section-label" data-i18n="contact_label">Contacto</p>
+      <h2 data-i18n="contact_title">Trabajemos juntos.</h2>
+
+      <div class="contact__card">
+        <a href="mailto:borroni.julian@gmail.com" class="contact__row">
+          <span class="contact__row-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+          </span>
+          <span class="contact__row-text">
+            <span class="contact__row-label" data-i18n="contact_email_label">Email</span>
+            <span class="contact__row-value">borroni.julian@gmail.com</span>
+          </span>
+          <span class="contact__row-arrow">↗</span>
+        </a>
+        <a href="https://instagram.com/julianbph" target="_blank" rel="noopener" class="contact__row">
+          <span class="contact__row-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </span>
+          <span class="contact__row-text">
+            <span class="contact__row-label">Instagram</span>
+            <span class="contact__row-value">@julianbph</span>
+          </span>
+          <span class="contact__row-arrow">↗</span>
+        </a>
+        <a href="assets/cv/Cv_Borroni_Julian_2026.pdf" download class="contact__row">
+          <span class="contact__row-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v11"/><path d="M7 11l5 5 5-5"/><path d="M5 19h14"/></svg>
+          </span>
+          <span class="contact__row-text">
+            <span class="contact__row-label">CV</span>
+            <span class="contact__row-value" data-i18n="btn_cv">Descargar CV</span>
+          </span>
+          <span class="contact__row-arrow">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="assets/img/brand/logo-jb-white.png" alt="Julián Borroni" class="footer__logo">
+      <span>© <span id="year"></span> Julián Borroni</span>
+    </div>
+    <div class="footer__social">
+      <a href="https://instagram.com/julianbph" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/julian-borroni-856838218" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7.5" y1="10" x2="7.5" y2="16.5"/><circle cx="7.5" cy="7" r="0.6" fill="currentColor" stroke="none"/><path d="M11.5 16.5V10M11.5 12.8c0-1.6 1-2.8 2.4-2.8 1.4 0 2.1 1 2.1 2.8v3.7"/></svg>
+      </a>
+      <a href="mailto:borroni.julian@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+      </a>
+      <a href="https://wa.me/5491161487534" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17l-1 4 4-1a8 8 0 1 0-3-3z"/><path d="M9 10c0 3 2.5 5.5 5.5 5.5.4 0 .8-.2.9-.6l.4-1.1a.8.8 0 0 0-.4-1l-1.3-.6a.8.8 0 0 0-.9.2l-.3.4c-1-.5-1.8-1.3-2.3-2.3l.4-.3a.8.8 0 0 0 .2-.9l-.6-1.3a.8.8 0 0 0-1-.4L8.6 8c-.4.1-.6.5-.6.9V10z" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== BOTÓN FLOTANTE CONTACTO ===== -->
+<a href="#contacto" class="fab" aria-label="Ir a contacto" data-i18n="fab_contact">Contacto</a>
+
+<!-- ===== BOTÓN VOLVER ARRIBA (mobile) ===== -->
+<button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+<!-- ===== MODAL DE PROYECTO ===== -->
+<div class="modal" id="projectModal" aria-hidden="true">
+  <div class="modal__backdrop" id="modalBackdrop"></div>
+  <div class="modal__panel" role="dialog" aria-modal="true">
+    <button class="modal__close" id="modalClose" aria-label="Cerrar">✕</button>
+    <div class="modal__content" id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
